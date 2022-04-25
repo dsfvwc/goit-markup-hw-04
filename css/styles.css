@@ -101,9 +101,10 @@ ol {
 
 .header-web-studio-color {
     color: var(--primary-dark-color);
+}
+
+.web-logo {
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .web-studio-color {
@@ -170,7 +171,6 @@ ol {
 .email-link,
 .smartphone-link {
     background-color: #FFFFFF;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -429,7 +429,8 @@ ol {
 }
 
 .team {
-    padding: 30px 0px;
+    padding-top: 30px;
+    padding-bottom: 16px;
 }
 
 /* ____________________________________Постоянные клиенты____________________________________ */
@@ -460,16 +461,12 @@ ol {
     border: 1px solid var(--accent-text-color);
 }
 
-.logo-link:focus {
-    background-color: var(--accent-text-color);
-}
-
 .logo-link:hover .logo-icon {
     fill: var(--accent-text-color);
 }
 
 .logo-link:focus .logo-icon {
-    fill: #FFFFFF;
+    fill: var(--accent-text-color);
 }
 
 .logo-list {
@@ -550,7 +547,7 @@ ol {
 }
 
 .footer-social-media-list-icon {
-    fill: #AFB1B8;
+    fill: var(--primary-light-color);
 }
 
 .footer-social-media-link:hover {
@@ -574,7 +571,7 @@ ol {
 }
 
 .footer-social-media-iteam item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .footer-social-media-list {
@@ -607,7 +604,8 @@ ol {
     margin-right: 0;
 }
 
-.filter-link:hover {
+.filter-link:hover,
+.filter-link:focus{
     color: var(--primary-light-color);
     background-color: var(--accent-text-color);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
@@ -673,7 +671,7 @@ ol {
 }
 
 .img-card:hover {
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .img-card:nth-child(3n) {
